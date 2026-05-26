@@ -1,0 +1,12 @@
+{
+  "name": "crypto-js-cli",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "bin": {
+    "crypto-js-cli": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node ./src/cli.js help"
+  }
+}
